@@ -1,13 +1,10 @@
-## Bug in tvOS On-Demand Resources
-
-Here is a bug in tvOS (possibly in iOS too) that can affect you if you work on On-Demand Resources on tvOS app.
+## [tvOS] A bug in On-Demand Resources
 
 Recently I’ve been working on On-Demand Resources for my [tvOS app](http://www.hungrysource.com/nature/index.html). Nothing fancy, just want to get a video file through ODR and play it. 
 
-
 Found this bug where the downloaded ODR asset will magically disappear after you present or dismiss a view controller. 
 
-It goes like this:
+Steps to reproduce this bug:
 
 - Create a NSBundleResourceRequest like `NSBundleResourceRequest.init(tags: [“tag name”])`
 - Call `beginAccessingResourcesWithCompletionHandler`
