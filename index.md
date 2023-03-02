@@ -1,7 +1,7 @@
-Here you can say lots of fun things about your site.
+Greetings! I'm Daniel Lam, a software engineer currently focused on iOS. 
 
-Maybe say a some things about yourself.
+I published the [Jamophone app](https://apps.apple.com/app/id535422655) and work for clients on iOS projects. I enjoy the creation process through coding.
 
-Or maybe what you plan to blog about.
+In this blog I will be sharing what I learnt in my journey. 
 
-Test.
+Outside of coding, I enjoy hiking, running and spending time with my family.
