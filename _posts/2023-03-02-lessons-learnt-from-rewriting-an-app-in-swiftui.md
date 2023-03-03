@@ -1,4 +1,4 @@
-## [SwiftUI] Lessons learnt from rewriting an app in SwiftUI
+## Lessons learnt from rewriting an app in SwiftUI
 
 What are the pros and cons of writing in SwiftUI when compared to writing in UIKit? I recently finished rewriting [Jamophone app](https://apps.apple.com/app/id535422655) from the ground up using SwiftUI. This post highlights the joy and challenges of my experience.
 
@@ -6,7 +6,7 @@ What are the pros and cons of writing in SwiftUI when compared to writing in UIK
 
 This may be the biggest hurdle to using SwiftUI instead of UIKit.
 
-SwiftUI is only available for iOS 13 and above. According to [https://iosref.com/ios-usage](https://iosref.com/ios-usage) this should be the case for 95.6% of iOS usages. However, using SwiftUI in iOS 13 could be buggy since that was the initial release to support SwiftUI. 
+SwiftUI is only available for iOS 13 and above. According to [https://iosref.com/ios-usage](https://iosref.com/ios-usage) this should be the case for 95.6% of iOS usages (as of 2023-03). However, using SwiftUI in iOS 13 could be buggy since that is the first supporting version.
 
 In my own project, there are some SwiftUI APIs that I want to use and are only available starting in iOS 15. In particular, the pull-to-refresh feature (`refreshable` modifier) and running an asynchronous task when a view is shown (`task` modifier). 
 
@@ -19,7 +19,7 @@ SwiftUI is declarative. If you don't have any experience in declarative/reactive
 
 In practice the challenge is to understand and use the SwiftUI keywords properly, such as `@State`, `@Binding`, `@ObservedObject`, `@StateObject`, `@Published`. 
 
-I found it helpful to not worrying about all the implications of each one too much, and just focus on finding the keyword that helps you build what you need. Don't over analyse. Get things done, and all will make more sense soon. 
+I found it helpful to not worry about all the implications of each one too much, and just focus on finding the keyword that helps you build what you need. Don't over analyse. Get things done, and all will make sense soon. 
 
 
 ### Speed of development
@@ -40,7 +40,7 @@ Relying on UIKit might have been more frequently needed in older iOS versions, b
 
 ### Using SwiftUI for only part of the project
 
-If switching from UIKit to SwiftUI seems like a big scary move, keep in mind that this does not have to be done in one go. You can start using SwiftUI in a new screen, or convert an existing screen, or even just one view. This is done through the use of `UIHostingController`. That was how I started using SwiftUI and it was really smooth.
+If switching from UIKit to SwiftUI seems like a big scary move, keep in mind that this does not have to be done in one go. You can start using SwiftUI in a new screen, or convert an existing screen, or even just one view. This is done through the use of `UIHostingController`. That was how I started using SwiftUI and it was a smooth transition that allows me to get comfortable with and build confidence in the tech.
 
 
 ### Conclusion

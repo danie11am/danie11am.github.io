@@ -1,4 +1,4 @@
-## Lessons Learnt on Swift 3 Migration
+## [Swift 3] Lessons learnt from Swift 3 migration
 
 If you work on iOS projects with Swift, now is the time to migrate them to Swift 3 if that is not done yet. It is better to do this now rather than being forced to do so when Xcode 8.3 comes out. 
 
