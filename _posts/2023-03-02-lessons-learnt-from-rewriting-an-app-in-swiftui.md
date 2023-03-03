@@ -40,12 +40,12 @@ Relying on UIKit might have been more frequently needed in older iOS versions, b
 
 ### Using SwiftUI for only part of the project
 
-If switching from UIKit to SwiftUI seems like a big scary move, keep in mind that this does not have to be done in one go. You can start using SwiftUI in a new screen, or convert an existing screen, or even just one view. This is done through the use of `UIHostingController`. That was how I started using SwiftUI and it was a smooth transition that allows me to get comfortable with and build confidence in the tech.
+If switching from UIKit to SwiftUI seems like a big scary move, keep in mind that this does not have to be done in one go. You can start using SwiftUI in a new screen, or convert an existing screen, or even just one view. This is done through the use of `UIHostingController`. That was how I started using SwiftUI and it was a smooth transition that allowed me to get comfortable with and build confidence in the tech, before going all in.
 
 
 ### Conclusion
 
-SwiftUI is here to stay. I am grateful for this wonderful new technology where coding UI is so much simpler and more efficiently done.
+SwiftUI is here to stay. I am grateful and excited for this wonderful new technology where coding UI is so much simpler and more efficiently done.
 
 Do you have any questions? Let's talk in the comments section below.
 
