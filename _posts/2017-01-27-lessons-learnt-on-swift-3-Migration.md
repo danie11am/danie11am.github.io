@@ -1,6 +1,8 @@
 ## [Swift 3] Lessons learnt from Swift 3 migration
 
-If you work on iOS projects with Swift, now is the time to migrate them to Swift 3 if that is not done yet. It is better to do this now rather than being forced to do so when Xcode 8.3 comes out. 
+[This is a dated post and kept for reference purpose only]
+
+If you work on iOS projects with Swift, now (edit: 2017-01) is the time to migrate them to Swift 3 if that is not done yet. It is better to do this now rather than being forced to do so when Xcode 8.3 comes out. 
 
 The following are lessons learnt from migrating a project with around 50K LOC.
 
@@ -13,13 +15,12 @@ One problem I encountered was that a pod seems to get the old v2.3  code even th
 
 It turns out that our main project had a specific value for the “Legacy Swift” build settings, and this blocked the same settings in the Pods project. Once that was removed, `pod install` gave the right code. The pod was CocoaLumberjacks, by the way, but I suspect it could happen to other pods as well.
 
-### Xcode Auto-Fix
+
+### Xcode migration tool
 
 The Xcode migration tool would fix most syntactic changes automatically. Remaining compile errors can also sometimes be auto-fixed by Xcode: click on the red dot on the line number, a pop-up would appear to show the error details, and if a “Fix-it …..” option is available, see if it makes sense and use it if appropriate. 
 
-However, be cautious in using it because the suggestion is not always appropriate. For example, an auto-fix/the migration tool in one case has used forced-casting to change a parameter type to `Any`, and the function signature expects `AnyObject`. The problem? It crashes on runtime without any compile time error or warning. The solution is to change the `AnyObject` in signature to `Any`, and no force casting is required.
-
-And of course, auto-fix should always be taken with a grain of salt.
+However, be cautious when using it because the suggestion is not always appropriate. For example, an auto-fix/the migration tool in one case has used forced-casting to change a parameter type to `Any`, and the function signature expects `AnyObject`. The problem? It crashes on runtime without any compile time error or warning. The solution is to change the `AnyObject` in signature to `Any`, and no force casting is required.
 
 
 ### IBActions
@@ -38,7 +39,7 @@ Function signature expected by Storyboard in Swift 3 is different from 2.3. The 
 ``` 
 
 
-### Merge Conflicts
+### Merge conflicts
 
 Once you started the migration work on a feature branch, your team members usually would still need to continue development on the original branch with the older Swift version. That inevitably results in merge conflicts. Merging conflicts is not fun, so you should minimise the code gap that may follow. That means:
 
