@@ -1,8 +1,6 @@
 ## [Swift 3] Lessons learnt from Swift 3 migration
 
-[This is a dated post and kept for reference purpose only]
-
-If you work on iOS projects with Swift, now (edit: 2017-01) is the time to migrate them to Swift 3 if that is not done yet. It is better to do this now rather than being forced to do so when Xcode 8.3 comes out. 
+If you work on iOS projects with Swift, now (Edit: 2017-01) is the time to migrate them to Swift 3 if that is not done yet. It is better to do this now rather than being forced to do so when Xcode 8.3 comes out. 
 
 The following are lessons learnt from migrating a project with around 50K LOC.
 
@@ -41,29 +39,26 @@ Function signature expected by Storyboard in Swift 3 is different from 2.3. The 
 
 ### Merge conflicts
 
-Once you started the migration work on a feature branch, your team members usually would still need to continue development on the original branch with the older Swift version. That inevitably results in merge conflicts. Merging conflicts is not fun, so you should minimise the code gap that may follow. That means:
+Once you started the migration work on a feature branch, your team members usually would still need to continue development on the original branch with the older Swift version. That inevitably results in merge conflicts. To minimise merge conflict, choose a time window to start Swift migration when there are minimal coding activity. Avoid major feature work/re-factoring in parralel while Swift migration is happening.
 
-- Choose a time window to start Swift migration when there is not as much coding activity, e.g. weekends, holiday period, etc.
-- Ask team members to avoid any major work/re-factoring while you are working on Swift migration.
-- Finish the migration work ASAP. 
-
-A few words on the basics of resolving merge conflicts - Get a clear understanding of the two diff sections provided by git, and remember them well:
+Quick reference for resolving merge conflict:
 
 ```
 <<<<< HEAD
-// This is how the code originally looked in your environment/branch before the merge event. I.e. “Mine"
+// "Mine" - your local code before the merge event.
 ===== 
-// This is how the code in the remote develop looks when you do the merge. I.e. “Theirs"
+// “Theirs" - code in the remote branch.
 <<<<< develop
 ```
 
-The two sections may look very similar and therefore it is easy to lose changes. You should go through them line by line and pick the intended changes. Find and talk to the author if needed. One thing is certain - the first and last line of the two sections are always different - so don’t lose those changes.
+The two sections may look very similar and therefore it is easy to lose changes. Consider every line and what the remote changes are, then apply it to local if needed. 
+
 
 ### NSThing -> Thing
 
 All NSThing types have been converted to just Thing. `NSDate` -> `Date`, `NSString` -> `String`, etc. A lot of times it would just work once you change the types in declaration or signature of functions. However, a lot other times it would not work, and you may need to cast back to the NS type to reach your property/function. 
 
-For example, we have written a helper function in a `NSError` category, and this is how we would call it in Swift 3:
+For example, we previously had a `NSError` helper function in Swift 2.3, and the rewrite in Swift 3 would be:
 
 ```
 // Swift 2.3 - This is how it looks like originally.
@@ -77,10 +72,5 @@ if let error = error as? NSError {
         if error.isInternetIssue {
 ```
 
-
-## Reference 
-
-- https://swift.org/migration-guide/ - The official, definitive and boring guide.
-- http://www.splinter.com.au/2016/11/06/swift-3-migration/ - A helpful sharing of another Swift 3 migration experience.
 
 
