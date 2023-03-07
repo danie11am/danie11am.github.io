@@ -1,14 +1,12 @@
 ## The curious case of iOS code-signing 
 
-This post was originally posted on 2014-01-24.
+iOS app code signing issues can be painful. There are so many things that can go wrong!
 
-iOS app code signing issues can be painful. There are simply too many things that can go wrong!
-
-This post does not cover any specific code signing issues. It attempts to explain the concepts and motivations behind Apple's code signing mechanism, which hopefully equips us to deal with any variants of code-signing issues in the future.
+This post does not cover any specific code signing issues. It attempts to explain the concepts and motivations behind the code signing mechanism, which hopefully equips us to deal with any variants of code signing issues in the future.
 
 ### The big picture
 
-Why is code signing needed? It's all about security.
+Why is code signing needed? It is all about security.
 
 > Apple offers app security through such things as mandatory code signing 
 - https://support.apple.com/en-au/guide/security/sec7c917bf14/web
