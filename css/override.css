@@ -43,3 +43,10 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* Center images by default */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -2,7 +2,7 @@
 
 What are the pros and cons of writing in SwiftUI when compared to writing in UIKit? I recently finished rewriting [Jamophone](https://apps.apple.com/app/id535422655), a musical instrument app, from the ground up and added new features using SwiftUI. This post highlights what I learnt from the experience.
 
-![Jamophone demo video](/assets/images/2023-03-02/jamophone-demo.gif){: .align-center}
+![Jamophone demo video](/assets/images/2023-03-02/jamophone-demo.gif)
 
 ### iOS deployment target version
 
