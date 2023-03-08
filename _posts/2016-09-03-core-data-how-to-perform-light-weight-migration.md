@@ -1,4 +1,4 @@
-## [Core Data] How to perform light weight migration
+## How to perform Core Data light weight migration
 
 This post is short, concise guide to perform a Core Data light weight migration, to add an attribute to a Core Data model.
 

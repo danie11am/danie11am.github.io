@@ -1,6 +1,6 @@
-## Lessons learnt from rewriting an app in SwiftUI
+## Lessons learnt from a SwiftUI rewrite
 
-What are the pros and cons of writing in SwiftUI when compared to writing in UIKit? I recently finished rewriting [Jamophone app](https://apps.apple.com/app/id535422655) from the ground up using SwiftUI. This post highlights the joy and challenges of my experience.
+What are the pros and cons of writing in SwiftUI when compared to writing in UIKit? I recently finished rewriting [Jamophone](https://apps.apple.com/app/id535422655), a musical instrument app, from the ground up using SwiftUI and added new features. This post highlights what I learnt from the experience.
 
 ### iOS deployment target version
 
@@ -47,6 +47,6 @@ If switching from UIKit to SwiftUI seems like a big scary move, keep in mind tha
 
 SwiftUI is here to stay. I am grateful and excited for this wonderful new technology where coding UI is so much simpler and more efficiently done.
 
-Do you have any questions? Let's talk in the comments section below.
+Do you have any questions? Feel free to ask in the comments section below.
 
 

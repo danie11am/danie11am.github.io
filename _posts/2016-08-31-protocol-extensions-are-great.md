@@ -1,4 +1,4 @@
-## [Swift] Protocol Extensions are great
+## Protocol Extensions are great
 
 ... and that's an understatement. Apple prefers to call them *magical*.
 

@@ -1,4 +1,4 @@
-## [tvOS] A bug in On-Demand Resources
+## A bug in On-Demand Resources in tvOS
 
 I recently worked on On-Demand Resources for my [tvOS app](http://www.hungrysource.com/nature/index.html). The goal was to download a video file through ODR and play it. 
 

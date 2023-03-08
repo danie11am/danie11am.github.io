@@ -1,4 +1,4 @@
-## The curious case of iOS code-signing 
+## The curious case of iOS code signing 
 
 iOS app code signing issues can be painful. There are so many things that can go wrong!
 
