@@ -10,8 +10,7 @@ This post attempts to explain the concepts and motivations behind the code signi
 
 Why is code signing needed? It is all about security.
 
-> Apple offers app security through such things as mandatory code signing ...
-> - [Apple Platform Security](https://support.apple.com/en-au/guide/security/sec7c917bf14/web)
+> Apple offers app security through such things as mandatory code signing ... - [Apple Platform Security](https://support.apple.com/en-au/guide/security/sec7c917bf14/web)
 
 The concept is simple: Before an app can be run, the system checks that it is "signed", meaning it verified to be developed by a trusted person/organisation.
 
