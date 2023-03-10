@@ -1,6 +1,6 @@
 ## How to resolve iOS code signing issues
 
-_(Updated in 2023.)_
+_(Updated in 2023)_
 
 iOS app code signing issues can be painful. So many things can go wrong! 
 
@@ -11,7 +11,7 @@ This post attempts to explain the concepts and motivations behind the code signi
 Why is code signing needed? It is all about security.
 
 > Apple offers app security through such things as mandatory code signing ...
-> from [Apple Platform Security](https://support.apple.com/en-au/guide/security/sec7c917bf14/web)
+> - [Apple Platform Security](https://support.apple.com/en-au/guide/security/sec7c917bf14/web)
 
 The concept is simple: Before an app can be run, the system checks that it is "signed", meaning it verified to be developed by a trusted person/organisation.
 
@@ -24,7 +24,7 @@ Basically Apple asks these questions at various points such as build, install, r
 - What device is the app going to run on?
 - Are the answers expected?
 
-Here is an analogy that may help: Consider the management of a big car park/parking lot. The car park management (Apple) wants to enforce which car (app) can be parked by which driver (developer) in which parking lot (device).
+Here is an analogy that may help: Consider the management of a big car park/parking lot. The car park management (Apple) wants to enforce which car (app) can be parked by which driver (developer) in which car space (device).
 
 Well, I don't think any parking management would get down to that level of details - but you get the idea.
 
@@ -33,28 +33,27 @@ Let's take a closer look.
 
 ### Provisioning profile
 
-Using the parking analogy, imagine registering a parking request - Here is my driver licence, this is my car plate number, and I want to park in that car space. Provisioning profile is like a piece of document with such information, _pre-registered before you park the car_. When you request to park the car, management will check it and verify all the info, and then the request can be granted.
+Using the parking analogy, imagine registering a parking request - Here is my driver licence, this is my car plate number, and I want to park in that car space. Provisioning profile is like a piece of document with such information, _pre-registered before you park the car_. When you request to park the car, management will check such document and verify all the info, and only after then will the request be granted.
 
-Similarly, provisioning profile needs to be created in Apple dev center first, then downloaded and opened in Xcode to become an available option in Xcode build settings. Later on during build/install/release/run time, a valid provisioning profile must be specified, and all the details mentioned in the profile need to match with the current build settings, otherwise the build process will fail.
+Similarly, provisioning profile needs to be created in Apple Developer portal first, then downloaded and opened in Xcode to become an available option in Xcode build settings. Later on during build/install/release/run time, the same profile should have been specified, and all the details from the profile need to match with the current build settings, otherwise the build process will fail.
 
-When you create a provisioning profile, you provide information that the code signing verification process will check:
+When you create a provisioning profile, you provide information for three main concerns that the code signing verification process will verify:
 
-- Who is the developer - Which certificates?
-- What app is this provisioning profile for - What is the App ID?
-- If the app is still under development, which devices are allowed to run it - What are the Device IDs?
+1. Who is the developer - Which certificates?
+2. What app is this provisioning profile for - What is the App ID?
+3. If the app is still under development, which devices are allowed to run it - What are the Device IDs?
 
-What can go wrong with provisioning profile?
+What can go wrong with provisioning profiles?
 
 - It expires 12 months after the creation date.
-- Missing provisioning profile. For example, if a new provisioning profile has been created by your team member, it may have already been selected in source code (since your team member has committed the change), but you need to download and open the profile first before the build can be run.
+- Missing provisioning profile. For example, if a new provisioning profile has been created by your team member, it may have already been selected in build settings because your team member has committed the change. However it actually does not exist in your local environment. You need to download the specified profile, open it in Xcode, before the build can be run.
 - A provisioning profile can become [invalid](https://developer.apple.com/library/archive/qa/qa1878/_index.html) when there are changes to its associated certificate or App ID. A new profile is probably required.
-- In some cases, expired/invalid profiles can cause problems even when valid profiles exist and selected.
- Check `~/Library/MobileDevice/Provisioning Profiles` to see if there are expired/invalid profiles.
+- In some cases, expired/invalid profiles can cause problems even when a valid profile exist and has been selected. Check `~/Library/MobileDevice/Provisioning Profiles` to see if there are expired/invalid profiles.
 
 
-### Certificates
+### Part 1 - Certificates
 
-Certificates in the provisioning profile identify the developer. This allows Apple to trace back the identity of a real person or organisation that published an app. This is why the certificate is also known as the Code Signing Identity in Xcode build settings or elsewhere.
+Certificates in the provisioning profile identify the developer. This allows Apple to trace back the identity of a real person or organisation that published an app. This is why the certificate is also known as the "Code Signing Identity" in Xcode build settings and elsewhere.
 
 Using the parking analogy again, the certificate is like a driver licence. Driver licence identifies the driver. Certificate identifies the developer. 
 
@@ -63,7 +62,7 @@ Using the parking analogy again, the certificate is like a driver licence. Drive
 - During build time, Xcode checks that the current Code Signing Identity specified in build settings matches one of the certificates specified in the provisioning profile. 
 - With this certificate, Xcode is able to "code sign" the output app bundle during the build process,  forever associating the output binary with the person/organisation that developed this software. This is why the certificate is also called "Signing Certificates" and "Code Signing Certificates".
 
-There are many types of certificates, just like there are different types of driver licences that determine types of vehicle that can be used. The most distinctive attribute of a certificate is whether it is for  development or distribution. Only distribution certificates allow publishing to the app store, and you can only get them if you join the $99 USD per year Apple Developer Program. 
+There are many types of certificates, just like there are different types of driver licences that determine the types of vehicle that can be driven. The most distinctive attribute of a certificate is whether it is for  development or distribution. Only distribution certificates allow publishing to the app store, and you can only get them if you join the $99 USD per year Apple Developer Program. 
 
 One more thing about certificate. When it is generated, there will actually be two parts: The certificate itself, and an associated private key. 
 
@@ -76,7 +75,7 @@ What can go wrong with certificates?
 - Missing/invalid certificate - perhaps a new machine is being used.
 
 
-### App ID
+### Part 2 - App ID
 
 When you create a provisioning profile, you have to choose an App ID. Before an App ID can be selected, it has to be created first in Apple Developer portal -> "Certificates, Identifiers & Profiles" -> Identifiers.
 
@@ -96,7 +95,7 @@ What can go wrong with App IDs?
 - Sometimes multiple App IDs are used for the same app, with different suffixes such as `.debug`, `.test`, `.prod` so that multiple versions can co-exist on the same device. In such cases, a mismatch between the Bundle ID in the particulr build scheme and App ID in the provisioning profile can happen by mistake more easily.
 
 
-### Devices
+### Part 3 - Devices
 
 When a provisioning profile _for development_ is created, you need to select devices. This is where you select the actual iPhone where you are going to run your app while it is in development. Before the device can be selected, you need to add it using the Devices section first. 
 
