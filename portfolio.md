@@ -5,10 +5,10 @@ title: Daniel's Portfolio
 
 ### Client or full-time work
 
-- Snapchat iOS app - <span style="color: grey">2019 - 2022</span>
-- Macquarie Bank iOS app - _2017 - 2018_
-- My Optus iPhone and iPad apps - 2014-2017
-- AMP iPhone and iPad apps - 2013-2014
+- Snapchat iOS app _<span style="color: grey">2019 - 2022</span>_
+- Macquarie Bank iOS app _<span style="color: grey">2017 - 2018</span>_
+- My Optus iPhone and iPad apps _<span style="color: grey">2014 - 2017</span>_
+- AMP iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
 
 Tech used:
 
@@ -19,23 +19,23 @@ Tech used:
 
 ### Independent project
 
-**[Jamophone iOS app](https://apps.apple.com/app/id535422655)**
+#### Jamophone iOS app
 
-A musical instrument app where you can play and record and share music, as well as listening to music created by others.
+A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others.
 
 Tech used: 
 
 - SwiftUI, Swift, Objective-C
 - iOS CoreData, In-App Purchase, AVFoundation (AVAudioSession), Audio Toolbox framework (AudioUnit)
-- Sound synthesis, real-time audio playback and recording
 - Backend service: Go, PostgresSQL, Docker
+- Sound synthesis, real-time audio playback and recording
 
 
 ### Past projects
 
 #### Nature tvOS app, 2015 - 2022
 
-A tvOS app that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage.
+A tvOS app that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage. Tech used: tvOS, On-Demand Resources, video editing
 
 #### Petrol Check Australia, 2018 - 2022
 
