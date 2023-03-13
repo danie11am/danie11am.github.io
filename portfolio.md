@@ -3,7 +3,7 @@ layout: page
 title: Daniel's Portfolio
 ---
 
-### Client or full-time work
+### Client/full-time work
 
 - Snapchat iOS app _<span style="color: grey">2019 - 2022</span>_
 - Macquarie Bank iOS app _<span style="color: grey">2017 - 2018</span>_
@@ -14,7 +14,7 @@ Tech used:
 
 - Swift, Objective-C, JavaScript
 - iOS AVFoundation framework (AVAudioSession), CallKit, UIKit
-- Crashlytics, CocoaPods, Fastlane, Firebase Analytics, Git, Lottie animation, XCUITest. Apple app store dev and release administration
+- BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana, graphite, Lottie animation, XCUITest. Apple app store dev and release administration
 
 
 ### Independent project
