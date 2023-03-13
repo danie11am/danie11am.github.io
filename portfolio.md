@@ -46,14 +46,14 @@ _<span style="color: grey">2018 - 2022</span>_
 An Alexa skill that allows you to get latest petrol buying trends in Australian capital cities, as well as exact price info in NSW.
 Tech used: Alexa Skills Kit, AWS DynamoDB, AWS Lambda
 
-#### Appyform, 2014 - 2015
+#### Appyform
 
 _<span style="color: grey">2014 - 2015</span>_
 
 A service for app developers to collect feedback for their apps easily.
 Tech used: Node.js, Express.js, MySQL, Ember.js, AngularJS, Bootstrap, AWS EC2, AWS SES, Stripe
 
-#### GeeftAway, 2009 - 2010
+#### GeeftAway
 
 _<span style="color: grey">2009 - 2010</span>_
 
