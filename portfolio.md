@@ -13,8 +13,8 @@ title: Daniel's Portfolio
 Tech used:
 
 - Swift, Objective-C, JavaScript
-- iOS UIKit, CallKit, AVFoundation framework (AVAudioSession) 
-- XCUITest, Firebase Analytics, Crashlytics, CocoaPods, Fastlane, Git, Lottie animation, Apple app store dev and release administration
+- iOS AVFoundation framework (AVAudioSession), CallKit, UIKit
+- Crashlytics, CocoaPods, Fastlane, Firebase Analytics, Git, Lottie animation, XCUITest. Apple app store dev and release administration
 
 
 ### Independent project
@@ -25,9 +25,9 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 
 Tech used: 
 
-- SwiftUI, Swift, Objective-C
-- iOS CoreData, In-App Purchase, AVFoundation (AVAudioSession), Audio Toolbox framework (AudioUnit)
-- Backend service: Go, PostgresSQL, Docker
+- Objective-C, Swift, SwiftUI
+- iOS Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CoreData, In-App Purchase
+- Backend service: Docker, Go, PostgresSQL, 
 - Sound synthesis, real-time audio playback and recording
 
 
