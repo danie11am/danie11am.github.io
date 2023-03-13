@@ -14,7 +14,8 @@ Tech used:
 
 - Swift, Objective-C, JavaScript
 - iOS AVFoundation framework (AVAudioSession), CallKit, UIKit
-- BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana, graphite, Lottie animation, XCUITest. Apple app store dev and release administration
+- BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest
+- Apple app store development and release administration
 
 
 ### Independent project
@@ -25,10 +26,10 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 
 Tech used: 
 
-- Objective-C, Swift, SwiftUI
+- SwiftUI, Swift, Objective-C, C++
 - iOS Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CoreData, In-App Purchase
-- Backend service: Docker, Go, PostgresSQL, 
-- Sound synthesis, real-time audio playback and recording
+- Backend service: Docker, Go, PostgresSQL
+- Real-time audio playback and recording, sound synthesis
 
 
 ### Past projects
