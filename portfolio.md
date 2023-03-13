@@ -35,17 +35,17 @@ Tech used:
 
 #### Nature tvOS app
 
-A tvOS app that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage. Tech used: tvOS, On-Demand Resources, video editing _<span style="color: grey">2015 - 2022</span>_
+A tvOS app that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage. Tech used: tvOS, On-Demand Resources, video editing. _<span style="color: grey">2015 - 2022</span>_
 
 #### Petrol Check Australia
 
-An Alexa skill that allows you to get latest petrol buying trends in Australian capital cities, as well as exact price info in NSW. Tech used: Alexa Skills Kit, AWS DynamoDB, AWS Lambda _<span style="color: grey">2018 - 2022</span>_
+An Alexa skill that allows you to get latest petrol buying trends in Australian capital cities, as well as exact price info in NSW. Tech used: Alexa Skills Kit, AWS DynamoDB, AWS Lambda. _<span style="color: grey">2018 - 2022</span>_
 
 #### Appyform
 
-A service for app developers to collect feedback for their apps easily. Tech used: Node.js, Express.js, MySQL, Ember.js, AngularJS, Bootstrap, AWS EC2, AWS SES, Stripe _<span style="color: grey">2014 - 2015</span>_
+A service for app developers to collect feedback for their apps easily. Tech used: Node.js, Express.js, MySQL, Ember.js, AngularJS, Bootstrap, AWS EC2, AWS SES, Stripe. _<span style="color: grey">2014 - 2015</span>_
 
 #### GeeftAway
 
-A website and a Facebook application that allows people to upload descriptions and photos of household items that they want to sell or give away. Tech used: PHP, Apache, MySQL, Dojo Toolkit, jQuery _<span style="color: grey">2009 - 2010</span>_
+A website and a Facebook application that allows people to upload descriptions and photos of household items that they want to sell or give away. Tech used: PHP, Apache, MySQL, Dojo Toolkit, jQuery. _<span style="color: grey">2009 - 2010</span>_
 
