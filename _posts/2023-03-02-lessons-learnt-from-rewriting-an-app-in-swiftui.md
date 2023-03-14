@@ -24,7 +24,7 @@ In practice the challenge is to understand and correctly use the SwiftUI propert
 
 ### Speed of development
 
-Imperative programming describes the steps to build the UI, while declarative programming describes the UI directly. By design, declarative programming has less code and is faster to code than imperative programming. 
+By design, declarative programming (SwiftUI) has less code and is faster to code than imperative programming (UIKit) because it describes the UI directly, rather than the steps to build the UI.
 
 In reality that is what I found as well, in most cases. Given that you have gone past the initial learning curve of SwiftUI, I would estimate that using SwiftUI is at least a few times faster than using UIKit to code the same requirement.
 
