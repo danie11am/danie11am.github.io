@@ -50,3 +50,8 @@ A service for app developers to collect feedback for their apps easily. Tech use
 
 A website and a Facebook application that allows people to upload descriptions and photos of household items that they want to sell or give away. Tech used: PHP, Apache, MySQL, Dojo Toolkit, jQuery. _<span style="color: grey">2009 - 2010</span>_
 
+
+{::comment}
+cd Documents/Workspaces/Websites/danie11am.github.io
+git add . ; git commit -m "Wording"; git push
+{:/comment}

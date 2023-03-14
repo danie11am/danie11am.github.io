@@ -19,16 +19,14 @@ As of March 2023, iOS 15 and 16 cover almost 90% of iOS usages. This is good eno
 
 SwiftUI is declarative. If you don't have any experience in declarative/reactive programming such as ReactNative, Flutter, RxSwift, React.js (or something ancient, Haskell), changing from imperative programming in UIKit to SwiftUI can be somewhat challenging, at least in the beginning. This is especially true when attempting to build more complex views and navigation that require data to be shared between views.
 
-In practice the challenge is to understand and use the SwiftUI keywords properly, such as `@State`, `@Binding`, `@ObservedObject`, `@StateObject`, `@Published`. 
-
-I found it helpful to not worry about all the implications of each one too much, and just focus on finding the keyword that helps you build what you need. Don't over analyse. Get things done, and all will make sense soon. 
+In practice the challenge is to understand and correctly use the SwiftUI property wrappers. The most common ones are `@State`, `@Binding`, `@ObservedObject`, `@StateObject`, `@Published` and it can be confusing. I found it helpful to not worry about all the implications of each one too much, and just focus on finding the one that helps you build what you need. Don't over analyse. Get things done, and all will make sense soon. 
 
 
 ### Speed of development
 
-Imperative programming describes the steps to build the UI, while declarative programming describes the UI directly. Therefore it is by principle supposed to be faster to code with than imperative programming. 
+Imperative programming describes the steps to build the UI, while declarative programming describes the UI directly. By design, declarative programming has less code and is faster to code than imperative programming. 
 
-In reality that is what I found as well. Given that you have gone past the initial learning curve of SwiftUI, I would estimate that using SwiftUI is at least a few times faster than using UIKit to code the same requirement.
+In reality that is what I found as well, in most cases. Given that you have gone past the initial learning curve of SwiftUI, I would estimate that using SwiftUI is at least a few times faster than using UIKit to code the same requirement.
 
 
 ### Using UIKit when the need arises
