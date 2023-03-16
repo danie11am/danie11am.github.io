@@ -22,16 +22,19 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 
 ### Technology
 
-| Languages - Used recently | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL |
-| Languages - Used in the past | C++, Python, PHP |
-| iOS Framework | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), UIKit |
+| Languages | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL, C++, Python, PHP |
+| iOS Frameworks | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), UIKit |
 | Tools | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
 | Database technology | MySQL, PostgresSQL |
-| AWS technology |  |
-| Other backend technology | Docker |
-| Specialized knowledge | - Apple app store development and release administration |
-|                       | - Real-time audio playback and recording |
-|                       | - Sound synthesis |
+| AWS technology | Alexa, DynamoDB, EC2, Lambda, SES |
+| Other | Docker, Stripe API, tvOS |
+
+
+Other specialized knowledge
+
+- Apple app store development and release administration
+- Real-time audio playback and recording
+- Sound synthesis
 
 
 ------------------------
