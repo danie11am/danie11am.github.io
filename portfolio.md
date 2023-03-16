@@ -40,7 +40,7 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 | Frontend          | AngularJS, Bootstrap, CSS, Ember.js |
 | Backend           | Express.js, Go, Node.js, PHP |
 | Database          | DynamoDB, MySQL, PostgresSQL |
-| AWS               | Alexa, DynamoDB, EC2, Lambda, SES |
+| AWS               | Alexa, DeviceFarm, DynamoDB, EC2, Lambda, SES |
 | Other             | Docker, On-Demand Resources (iOS/tvOS), Stripe API, tvOS, watchOS |
 
 
@@ -77,6 +77,6 @@ A website and a Facebook application that allows people to upload descriptions a
 
 
 {::comment}
-cd Documents/Workspaces/Websites/danie11am.github.io
+cd ~/Documents/Workspaces/Websites/danie11am.github.io
 git add . ; git commit -m "Wording"; git push
 {:/comment}
