@@ -8,7 +8,7 @@ title: Daniel's Portfolio
 - Snapchat iOS app _<span style="color: grey">2019 - 2022</span>_
 - Macquarie Bank iOS app _<span style="color: grey">2017 - 2018</span>_
 - My Optus iPhone and iPad apps _<span style="color: grey">2014 - 2017</span>_
-- AMP iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
+- AMP banking and superannuation iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
 
 
 ### Independent project
@@ -18,9 +18,11 @@ title: Daniel's Portfolio
 A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others. I developed the UI using SwiftUI/Swift/Objective-C/C++ and backend services using Go/PostgresQL/Docker hosted on AWS.
 
 
+<br/>
 
 ------------------------
 
+<br/>
 
 
 ### Technology
@@ -33,18 +35,17 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 | Other | Docker, Stripe API, tvOS |
 
 
-Specialized knowledge
+#### Specialized knowledge
 
 - Apple app store development and release administration
 - Real-time audio playback and recording
 - Sound synthesis
 
-
-
+<br/>
 
 ------------------------
 
-
+<br/>
 
 
 ### Past projects (Inactive)
