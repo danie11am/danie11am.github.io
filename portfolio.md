@@ -10,29 +10,33 @@ title: Daniel's Portfolio
 - My Optus iPhone and iPad apps _<span style="color: grey">2014 - 2017</span>_
 - AMP iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
 
-Tech used:
 
-- Swift, Objective-C, JavaScript
-- iOS AVFoundation framework (AVAudioSession), CallKit, UIKit
-- BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest
-- Apple app store development and release administration
-
-
-### Independent project
+### Independent project (active)
 
 #### Jamophone iOS app
 
-A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others.
-
-Tech used: 
-
-- SwiftUI, Swift, Objective-C, C++
-- iOS Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CoreData, In-App Purchase
-- Backend service: Docker, Go, PostgresSQL
-- Real-time audio playback and recording, sound synthesis
+A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others. I developed the UI using SwiftUI/Swift/Objective-C/C++ and backend services using Go/PostgresQL/Docker.
 
 
-### Past projects
+------------------------
+
+### Technology
+
+| Languages - Used recently | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL |
+| Languages - Used in the past | C++, Python, PHP |
+| iOS Framework | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), UIKit |
+| Tools | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
+| Database technology | MySQL, PostgresSQL |
+| AWS technology |  |
+| Other backend technology | Docker |
+| Specialized knowledge | - Apple app store development and release administration |
+|                       | - Real-time audio playback and recording |
+|                       | - Sound synthesis |
+
+
+------------------------
+
+### Past projects (Inactive)
 
 #### Nature tvOS app
 
