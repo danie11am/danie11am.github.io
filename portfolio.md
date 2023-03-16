@@ -37,9 +37,11 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 | Languages | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL, C++, Python, PHP |
 | iOS Frameworks | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), SwiftUI, UIKit |
 | Tools | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
-| Database technology | MySQL, PostgresSQL |
-| AWS technology | Alexa, DynamoDB, EC2, Lambda, SES |
-| Other | Docker, Stripe API, tvOS, WatchOS |
+| Frontend | AngularJS, Bootstrap, CSS, Ember.js |
+| Backend | Express.js, Go, Node.js, PHP |
+| Database technology | DynamoDB, MySQL, PostgresSQL |
+| AWS | Alexa, DynamoDB, EC2, Lambda, SES |
+| Other | Docker, On-Demand Resources (iOS/tvOS), Stripe API, tvOS, watchOS |
 
 
 #### Specialized knowledge
