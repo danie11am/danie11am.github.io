@@ -11,33 +11,41 @@ title: Daniel's Portfolio
 - AMP iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
 
 
-### Independent project (active)
+### Independent project
 
 #### Jamophone iOS app
 
-A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others. I developed the UI using SwiftUI/Swift/Objective-C/C++ and backend services using Go/PostgresQL/Docker.
+A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others. I developed the UI using SwiftUI/Swift/Objective-C/C++ and backend services using Go/PostgresQL/Docker hosted on AWS.
+
 
 
 ------------------------
 
+
+
 ### Technology
 
 | Languages | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL, C++, Python, PHP |
-| iOS Frameworks | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), UIKit |
+| iOS Frameworks | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), SwiftUI, UIKit |
 | Tools | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
 | Database technology | MySQL, PostgresSQL |
 | AWS technology | Alexa, DynamoDB, EC2, Lambda, SES |
 | Other | Docker, Stripe API, tvOS |
 
 
-Other specialized knowledge
+Specialized knowledge
 
 - Apple app store development and release administration
 - Real-time audio playback and recording
 - Sound synthesis
 
 
+
+
 ------------------------
+
+
+
 
 ### Past projects (Inactive)
 
