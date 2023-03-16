@@ -48,7 +48,7 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 <br/>
 
 
-### Past projects (Inactive)
+### Past independent projects
 
 #### Nature tvOS app
 
