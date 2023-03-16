@@ -16,7 +16,7 @@ The concept is simple: Before an app can be run, the system checks that it is "s
 
 In practice, Xcode or the OS gathers information such as identities of the app, its developer, and the device, and then makes a decision on whether or not this is an acceptable combination for building/running. If it fails, the error is expressed as some kind of code signing issues. Here is [a list from Apple](https://developer.apple.com/library/archive/technotes/tn2407/_index.html).
 
-Basically Apple asks these questions at various points such as build, install, release and run time,
+Apple asks these questions at various points such as build, install, release and run time,
 
 - Who is the developer? 
 - What app is this? 
