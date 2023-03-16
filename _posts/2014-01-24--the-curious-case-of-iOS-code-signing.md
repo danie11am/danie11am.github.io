@@ -14,14 +14,14 @@ Why is code signing needed? It is all about security.
 
 The concept is simple: Before an app can be run, the system checks that it is "signed", meaning it verified to be developed by a trusted person/organisation.
 
-In practice, Xcode or the OS gathers information such as identities of the app, its developer, and the device, and then makes a decision on whether or not this is an acceptable combination for building/running. If it fails, the error is expressed as some kind of code signing issues. Here is [a list from Apple](https://developer.apple.com/library/archive/technotes/tn2407/_index.html).
-
-Apple asks these questions at various points such as build, install, release and run time,
+In practice, Apple (Xcode or the OS) asks these questions at various points such as build, install, release and run time,
 
 - Who is the developer? 
 - What app is this? 
 - What device is the app going to run on?
 - Are the answers expected?
+
+It then makes a decision on whether or not it is an acceptable combination for building/running. If failed, the error is expressed as some kind of code signing issues. Here is [a list from Apple](https://developer.apple.com/library/archive/technotes/tn2407/_index.html).
 
 Here is an analogy that may help: Consider the management of a big car park/parking lot. The car park management (Apple) wants to enforce which car (app) can be parked by which driver (developer) in which car space (device).
 
