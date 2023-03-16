@@ -5,6 +5,8 @@ title: Daniel's Portfolio
 
 I am a passionate software engineer who loves to build something useful and delightful. I often use SwiftUI/Swift/Objective-C these days but I am also competent in other languages/technology and have built backend services.
 
+<br/>
+
 
 ### Client/full-time work
 
@@ -12,6 +14,8 @@ I am a passionate software engineer who loves to build something useful and deli
 - Macquarie Bank iOS app _<span style="color: grey">2017 - 2018</span>_
 - My Optus iPhone and iPad apps _<span style="color: grey">2014 - 2017</span>_
 - AMP banking and superannuation iPhone and iPad apps  _<span style="color: grey">2013 - 2014</span>_
+
+<br/>
 
 
 ### Independent project
