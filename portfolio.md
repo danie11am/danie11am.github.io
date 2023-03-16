@@ -3,6 +3,9 @@ layout: page
 title: Daniel's Portfolio
 ---
 
+I am a passionate software engineer who loves to build something useful and delightful. I often use SwiftUI/Swift/Objective-C these days but I am also competent in other languages/technology and have built backend services.
+
+
 ### Client/full-time work
 
 - Snapchat iOS app _<span style="color: grey">2019 - 2022</span>_
@@ -32,7 +35,7 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 | Tools | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
 | Database technology | MySQL, PostgresSQL |
 | AWS technology | Alexa, DynamoDB, EC2, Lambda, SES |
-| Other | Docker, Stripe API, tvOS |
+| Other | Docker, Stripe API, tvOS, WatchOS |
 
 
 #### Specialized knowledge
