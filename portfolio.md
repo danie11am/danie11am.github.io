@@ -18,7 +18,7 @@ I am a passionate software engineer who loves to build something useful and deli
 <br/>
 
 
-### Independent project
+### Independent projects
 
 #### Jamophone iOS app
 
