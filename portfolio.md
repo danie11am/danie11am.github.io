@@ -24,6 +24,10 @@ I am a passionate software engineer who loves to build something useful and deli
 
 A [musical instrument app](https://apps.apple.com/app/id535422655) where you can play and record and share music, as well as listening to music created by others. I developed the UI using SwiftUI/Swift/Objective-C/C++ and backend services using Go/PostgresQL/Docker hosted on AWS.
 
+#### Nature tvOS app
+
+A [tvOS app](https://www.hungrysource.com/nature/index.html) that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage. Tech used: tvOS, On-Demand Resources, video editing.
+
 
 <br/>
 
@@ -58,10 +62,6 @@ A [musical instrument app](https://apps.apple.com/app/id535422655) where you can
 
 
 ### Past independent projects
-
-#### Nature tvOS app
-
-A tvOS app that allows you to be immersed in a variety of virtual natural landscape, in the form of video and sound footage. Tech used: tvOS, On-Demand Resources, video editing. _<span style="color: grey">2015 - 2022</span>_
 
 #### Petrol Check Australia
 
