@@ -3,7 +3,7 @@ layout: page
 title: Daniel's Portfolio
 ---
 
-I am a passionate software engineer who loves to build something useful and delightful. I often use SwiftUI/Swift/Objective-C these days but I am also competent in other languages/technology and have built backend services.
+I love coding and building something delightful through it. I often use SwiftUI/Swift/Objective-C these days but I am also competent in other languages/technology and have built backend services.
 
 <br/>
 
