@@ -3,7 +3,7 @@ layout: page
 title: Daniel's Portfolio
 ---
 
-I love coding and creating delightful software products through that. I often use SwiftUI/Swift/Objective-C these days but I am also competent in other languages/technology and have built backend services.
+I love creating delightful software products through coding. I often work on iOS apps using SwiftUI/Swift/Objective-C these days, but I have also built backend services and often used other languages and technology.
 
 <br/>
 
