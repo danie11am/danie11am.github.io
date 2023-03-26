@@ -36,7 +36,7 @@ A [tvOS app](https://www.hungrysource.com/nature/index.html) that allows you to 
 <br/>
 
 
-### Technology
+### Skillset
 
 | Languages         | SwiftUI, Swift, Objective-C, JavaScript, Go, SQL, C++, Python, PHP |
 | iOS Frameworks    | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), SwiftUI, UIKit |
