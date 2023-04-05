@@ -42,8 +42,8 @@ A [tvOS app](https://www.hungrysource.com/nature/index.html) that allows you to 
 | iOS Frameworks    | Audio Toolbox framework (AudioUnit), AVFoundation (AVAudioSession), CallKit (VoIP calling), CoreData, PassKit (Apple Pay), StoreKit (In-App Purchase), SwiftUI, UIKit |
 | Cross platform    | Flutter, React Native |
 | Tools             | BigQuery, Crashlytics, CocoaPods, Fastlane, Figma, Firebase Analytics, Git, Grafana/Graphite, Lottie animation, XCUITest |
-| Frontend          | AngularJS, Bootstrap, CSS, Ember.js |
-| Backend           | Express.js, Go, Node.js, PHP, React |
+| Frontend          | AngularJS, Bootstrap, CSS, Ember.js, React |
+| Backend           | Express.js, Go, Node.js, PHP |
 | Database          | DynamoDB, MySQL, PostgresSQL |
 | AWS               | Alexa, Device Farm, DynamoDB, EC2, Lambda, SES, SNS |
 | Other             | Docker, On-Demand Resources (iOS/tvOS), Stripe API, tvOS, watchOS |
