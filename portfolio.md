@@ -3,7 +3,7 @@ layout: page
 title: Daniel's Portfolio
 ---
 
-I love creating delightful software products. These days I often work on iOS apps using SwiftUI/Swift/Objective-C. I have also built backend services and used other languages and technology.
+I love creating delightful software products. These days I often work on iOS apps using SwiftUI/Swift/Objective-C. I have also built backend services and used other languages and technology. 
 
 <br/>
 
